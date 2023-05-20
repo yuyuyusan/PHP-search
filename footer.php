@@ -4,7 +4,7 @@
 </footer>
 </div>
 <!-- js -->
-<script src="src/js/index.js"></script>
+<script type="module" src="src/js/index.js"></script>
 </body>
 
 </html>
