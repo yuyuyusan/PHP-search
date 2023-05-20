@@ -3,8 +3,8 @@
   <section class="my-24">
     <h1 class="text-center text-slate-800 mb-8 text-3xl to-blue-900 font-bold">検索フォーム</h1>
     <form action="result.php" method="post" class="max-w-3xl mx-auto">
-      <div class="mb-8 border-b-stone-600 border-b pb-3">
-        <label for="area" class="block mb-3 font-semibold">地域</label>
+      <div class="mb-5 pb-5 border-b-stone-600 border-b">
+        <label for="area" class="block mb-2 font-semibold">地域</label>
         <select name="area" class="p-1 border border-stone-600">
           <option value="">指定なし</option>
           <option value="北海道">北海道</option>
@@ -12,24 +12,24 @@
           <option value="大阪府">大阪府</option>
         </select>
       </div>
-      <div class="mb-8 border-b-stone-600 border-b pb-3">
-        <label for="type" class="block mb-3 font-semibold">種類</label>
+      <div class="mb-5 pb-5 border-b-stone-600 border-b">
+        <label for="type" class="block mb-2 font-semibold">種類</label>
         <select name="type" class="p-1 border border-stone-600">
           <option value="">指定なし</option>
           <option value="医療脱毛">医療脱毛</option>
           <option value="脱毛サロン">脱毛サロン</option>
         </select>
       </div>
-      <div class="mb-8 border-b-stone-600 border-b pb-3">
-        <label for="tags" class="block mb-3 font-semibold">部位</label>
+      <div class="mb-5 pb-5 border-b-stone-600 border-b">
+        <label for="tags" class="block mb-2 font-semibold">部位</label>
         <input type="checkbox" name="tags[]" value="顔">顔
         <input type="checkbox" name="tags[]" value="腕">腕
         <input type="checkbox" name="tags[]" value="足">足
         <input type="checkbox" name="tags[]" value="背中">背中
         <input type="checkbox" name="tags[]" value="全身">全身
       </div>
-      <div class="border-b-stone-600 border-b pb-3 mb-10">
-        <label for="tags" class="block mb-3 font-semibold">こだわり条件</label>
+      <div class="mb-10 pb-5 border-b-stone-600 border-b">
+        <label for="tags" class="block mb-2 font-semibold">こだわり条件</label>
         <input type="checkbox" name="tags[]" value="VIO脱毛">VIO脱毛
         <input type="checkbox" name="tags[]" value="19時以降可能">19時以降可能
         <input type="checkbox" name="tags[]" value="分割可能">分割可能
