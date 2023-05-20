@@ -4,7 +4,7 @@ Search-form　AND search
 
 # Detail
 
-DBを使用せず、素のPHPだけで作成。result.phpにすべてのデータを格納し、ループを回しています。
+DBを使用せず、素のPHPで作成。result.phpにすべてのデータを格納し、ループを回しています。
 
 AND検索なので、全て該当しない限り検索結果には出力されません。
 
@@ -12,6 +12,7 @@ AND検索なので、全て該当しない限り検索結果には出力され�
 # Stack
 
 PHP
+
 Tailwind
 
 # Directory
